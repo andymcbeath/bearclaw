@@ -1,5 +1,5 @@
 <template>
-  <form @submit.prevent="submitForm()">
+  <form id="submit" @submit.prevent="submitForm()">
     <div class="row">
       <div class="col">
         <div class="mb-3">
