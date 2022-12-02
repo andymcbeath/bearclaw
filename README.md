@@ -202,6 +202,10 @@ export default {
 </script>
 
 <style lang="scss">
+.row {
+  padding-left: 100px;
+  padding-right: 50px;
+}
 .buttons {
   justify-content: space-between;
 }
@@ -219,6 +223,7 @@ input {
   border-radius: 0.1rem;
 }
 </style>
+
 ```
 Here is the code for the top section of the page:
 ```
@@ -257,20 +262,20 @@ Here is the code for the top section of the page:
               </button>
             </div>
             <div class="col-3">
-              <h6>LIGHT</h6>
+              <h5>LIGHT</h5>
               <label class="switch">
                 <input type="checkbox" />
                 <span class="slider round"></span>
               </label>
-              <h6>DARK</h6>
+              <h5>DARK</h5>
             </div>
             <div class="col-3">
-              <h6>STABLE</h6>
+              <h5>STABLE</h5>
               <label class="switch">
                 <input type="checkbox" @click="toggleCheckbox" />
                 <div class="slider round"></div>
               </label>
-              <h6>BETA</h6>
+              <h5>BETA</h5>
             </div>
           </div>
         </div>
@@ -347,6 +352,7 @@ img.img-thumbnail {
 }
 .container-flex {
   padding-top: 100px;
+  padding-left: 100px;
 }
 .middle-top {
   display: flex;
@@ -412,7 +418,11 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+h5 {
+  color: white;
+}
 </style>
+
 ```
 ### Final Product!
 ![Screenshot 2022-12-02 at 3 32 02 PM](https://user-images.githubusercontent.com/107561577/205392133-69e03295-55e8-4794-964c-d6b52ec0ce0d.png)
