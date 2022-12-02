@@ -1,6 +1,8 @@
 <template>
-  <TopSection />
-  <BottomSection />
+  <div class="container-fluid">
+    <TopSection />
+    <BottomSection />
+  </div>
 </template>
 
 <script>

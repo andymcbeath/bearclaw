@@ -11,11 +11,19 @@
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
     "bootstrap-vue": "^2.23.1",
-    "core-js": "^3.8.3",
+    "color-scheme-change": "^1.0.1",
+    "core-js": "^3.26.1",
+    "dark-mode-switch": "^1.0.0",
+    "dark-mode-toggle": "^0.14.3",
     "jquery": "^3.6.1",
+    "light-switch-bootstrap": "^0.1.4",
     "popper.js": "^1.16.1",
     "vue": "^3.2.13",
-    "vue-router": "^4.0.3"
+    "vue-apply-darkmode": "^1.0.2",
+    "vue-dark-mode-switch": "^1.1.0",
+    "vue-dark-mode-switcher": "^0.1.8",
+    "vue-router": "^4.0.3",
+    "vuedarkmode": "^0.4.18"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -29,6 +37,10 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.0.3",
-    "prettier": "^2.4.1"
+    "node-sass": "^8.0.0",
+    "prettier": "^2.4.1",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "webpack": "^5.75.0"
   }
 }
